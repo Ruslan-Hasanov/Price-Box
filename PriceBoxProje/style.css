@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #E7E7EC;
+}
+
+.container {
+    background-color: #F5F5FE;
+    width: 400px;
+    height: 300px;
+    border: 8px solid white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.container .ruslan {
+    font-size: 16px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+.calendarcontainer {
+    display: flex;  /*Iki divi yanasi hala getirir*/
+    align-items: center;  /*itemleri ortaya getirir*/
+    justify-content: space-around;  /*Divler arasi posisya verir*/
+     /*background rengi deyisir*/
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+
+.calendarcontainer p {
+    font-size: 10px;
+}
+
+.calendarcontainer h4 {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+.buttons button {
+    outline: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    
+}
+.firstbtn {
+    background-color: #0f0E2F;
+    color: white;
+}
+.secondbtn {
+    background-color: #F5F5FE;
+    border: 2px solid #0f0E2F;
+    color: #0f0E2F;
+}
